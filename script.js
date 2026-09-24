@@ -3,6 +3,12 @@ const inputBox=document.getElementById('inpt');
 const addBtn=document.getElementById('add-btn');
 const outputPart=document.getElementById('output-div');
 
+inputBox.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+        addBtn.click();
+    }
+});
+
 addBtn.addEventListener('click',()=>
 {
     const inputText=inputBox.value.trim();
