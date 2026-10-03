@@ -1,0 +1,52 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100vh;
+    width: 100%;
+}
+
+.page
+{
+    height: 100%;
+    width: 100%;
+    background-color:  #052023;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-container
+{
+    height: 75%;
+    width: 100%;
+    max-width: 550px;
+    min-width: 350px;
+    border: 3px solid  #e6ff55;
+}
+
+#header
+{
+    height: 10%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    
+    margin-top: 50px
+}
+
+#head-txt
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 50px;
+}
